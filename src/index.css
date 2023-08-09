@@ -1,5 +1,4 @@
 /* Google Font */
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); */
 
 
   @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
@@ -15,28 +14,6 @@
   text-decoration: none;
 }
 
-/* :root {
-  --color-dark-blue: #082340;
-  --color-white: #fff;
-  --color-purple: #6f63ad;
-  --color-light-purple: #cbd5f0;
-  --color-yellow: #fcf201;
-  --color-pink: #e8dfe0;
-  --color-cream: #ded1bd;
-  --color-dark-pink: #d49e8d;
-  --color-bg: #faf6f2;
-  --color-behi: #f58f7c;
-  --color-light-black: #2c2b30;
-  --color-dark-gray: #4f4f51;
-  --color-mint: #3bba9c;
-  --color-dark-mint: #52ab98;
-
-  --transition: all 400ms ease;
-
-  --container-width-lg: 80%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
-} */
 
 html {
   scroll-behavior: smooth;
@@ -47,7 +24,6 @@ html {
 }
 
 body {
-  /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Lato', sans-serif;
   color: #27374D;
   line-height: 1.7;
