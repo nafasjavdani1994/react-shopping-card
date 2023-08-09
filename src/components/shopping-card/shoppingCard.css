@@ -1,0 +1,132 @@
+.shopping-card__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px 175px 50px;
+  transition: all 0.2s ease;
+}
+
+.cartContainer {
+  width: 50%;
+}
+
+.shopping-card__payment {
+  width: 30%;
+  border: 1px solid #dbdfea;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.shopping-card__payment p {
+  margin: 20px 20px 10px;
+}
+
+.shopping-card__payment p span {
+  font-weight: 600;
+  display: inline-block;
+  margin-left: 20px;
+  color: #6886C5;
+}
+
+.shopping-card__btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 50px 20px 10px;
+}
+
+.btn__checkout {
+  display: inline-block;
+  background: rgb(154, 208, 236);
+  padding: 7px 16px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+ 
+}
+
+.btn__checkout:hover {
+  background-color: transparent;
+  border: 1px solid #7ED3B2;
+  color: #7ED3B2;
+}
+
+.btn__clear {
+  cursor: pointer;
+  color: #9AD0EC;
+  background: none;
+  border: none;
+  transition: all 0.4s ease;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn__clear:hover {
+  color: #ff8dc7;
+  
+}
+
+.payment__complete h3 {
+  color: #EA9085;
+  margin: 30px 0 50px;
+  font-size: 1.2rem;
+}
+
+.payment__complete a {
+  background-color: #8294c4;
+  padding: 7px 10px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  font-weight: 600;
+  font-size: 0.9rem;
+ 
+  margin-left: 5px;
+}
+
+.payment__complete a:hover {
+  background-color: transparent;
+  border: 1px solid #ff8dc7;
+  color: #ff8dc7;
+}
+
+@media (max-width: 1200px) {
+  .shopping-card__container {
+    margin: 120px 80px 50px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .shopping-card__container {
+    flex-direction: column-reverse;
+    margin: 120px 80px 50px;
+    align-items: center;
+  }
+  .cartContainer {
+    width: 100%;
+  }
+
+  .shopping-card__payment {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .shopping-card__container {
+    margin: 120px 40px 50px;
+  }
+}
+
+@media (max-width: 555px) {
+  .shopping-card__container {
+    margin: 120px 20px 50px;
+  }
+}
